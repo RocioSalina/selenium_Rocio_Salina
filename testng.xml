@@ -1,0 +1,15 @@
+<suite name="Clase 12 - Sel">
+    <test name="Ejercicios Salesforce-Spotify">
+        <parameter name="specificTag" value="h2"></parameter>
+        <groups>
+            <run>
+                <include name="Success"/>
+                <exclude name="Failed"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="clase12.spotifyTestWithParameters"></class>
+            <class name="clase12.testngSalesforce"></class>
+        </classes>
+    </test>
+</suite>
